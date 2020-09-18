@@ -22,21 +22,21 @@
 }
 
 .header_area .main-menu .nav-item .nav-link{
-    font: normal 500 15px/2px var(--roboto);
+    font: normal 500 15px/2px sans-serif;
     text-transform: uppercase;
     padding: 1.7rem;
-    color: var(--title-color);
+    color: #141313;
 }
 
 .header_area .main-menu .navbar-nav .active a{
-    background: var(--gradient-color);
+    background: linear-gradient(90deg, #4458dc 0%, #854fee 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }
 
 .header_area .main-menu .navbar-nav a:hover{
-    background: var(--gradient-color);
+    background: linear-gradient(90deg, #4458dc 0%, #854fee 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -91,7 +91,7 @@
 
 .site-main .about-area .about-title h2 > span{
     display: block;
-    font: normal bold 49px/ 60px var(--roboto);
+    font: normal bold 49px/ 60px sans-serif;
     letter-spacing: 21px;
 }
 
@@ -120,7 +120,7 @@
 }
 
 .site-main .brand-area .first-row .col-lg-4 > .single-brand{
-    border: 1px solid var(--border-color);
+    border: 1px solid linear-gradient(90deg, #4458dc 0%, #854fee 100%);
     text-align: center;
     padding: 1.8rem 0rem;
     margin: .9rem 0;
@@ -135,7 +135,7 @@
 }
 
 .site-main .brand-area .first-row .col-lg-4 > .single-brand:hover{
-    box-shadow: var(--box-shadow);
+    box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.205);
     transform: scale(1.1);
 }
 
@@ -167,13 +167,13 @@
 }
 
 .site-main .brand-area .experience-area .years-area .years{
-    font: normal bold 84px/40px var(--roboto);
-    color: var(--primary-color2);
+    font: normal bold 84px/40px sans-serif;
+    color: #854fee;
     z-index: 2;
 }
 
 .site-main .brand-area .experience-area .years-area h2 > span{
-    font: normal 600 22px/30px var(--roboto);
+    font: normal 600 22px/30px sans-serif;
 }
 
 .site-main .brand-area .experience-area .call-area{
@@ -225,7 +225,7 @@
 }
 
 .site-main .project-area .grid .our-project > .title h4{
-    font: normal 700 25px/12px var(--roboto);
+    font: normal 700 25px/12px sans-serif;
 }
 
 button:focus,
