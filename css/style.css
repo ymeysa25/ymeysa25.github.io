@@ -70,14 +70,45 @@
     font-size: 5rem;
 }
 
-.site-main .site-banner .site-title h4{
-    font-size: 1.5rem;
-}
 
 .site-main .site-banner .banner-image > img{
     padding: 7rem 0;
     width: 90rem;
 }
+
+.site-main .site-banner .site-title h4{
+    font-size: 1.5rem;
+
+    /* Coba */
+    /* padding: 0.5rem;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    text-align: center;
+    overflow: hidden; */
+}
+
+
+.site-main .site-banner .site-title h4 span.TypeCursor {
+
+    font-size: 1.5rem;
+    display: inline-block;
+    background-color: #ccc;
+    margin-left: 0.1rem;
+    width: 3px;
+    animation: blink 1s infinite;
+  }
+
+.site-main .site-banner .site-title h4 span.TypeCursor.typing {
+    animation: none;
+}
+
+@keyframes blink {
+    0%  { background-color: #ccc; }
+    49% { background-color: #ccc; }
+    50% { background-color: transparent; }
+    99% { background-color: transparent; }
+    100%  { background-color: #ccc; }
+  }
 
 
 
