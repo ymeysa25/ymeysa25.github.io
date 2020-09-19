@@ -207,6 +207,10 @@
     box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.205);
 }
 
+.site-main .services-area .services-list .services .services-img img{
+    width: 64px;
+}
+
 
 /* Project Area */
 .site-main .project-area{
